@@ -63,7 +63,7 @@
     <div data-animation="default" data-collapse="small" data-duration="400" data-easing="ease" data-easing2="ease"
         role="banner" class="navbar w-nav">
         <div class="container w-container">
-            <a href="index" class="brand w-nav-brand"><img src="images/logo-riktig.png" loading="lazy" alt=""
+            <a href="/" class="brand w-nav-brand"><img src="images/logo-riktig.png" loading="lazy" alt=""
                     class="image"></a>
             <nav role="navigation" class="nav-menu w-nav-menu">
                 <a href="https://bestill.timma.no/salonglykkeliten" target="_blank"
