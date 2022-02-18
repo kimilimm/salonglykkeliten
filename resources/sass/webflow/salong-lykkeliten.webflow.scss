@@ -88,7 +88,7 @@
 
     .nav-button.nav-link:hover {
     border: 1px none #000;
-    background-color: rgba(191, 135, 136, 0.6);
+    background-color: rgba(245, 164, 177, 0.8);
     }
 
     .nav-button.nav-link.bold-nav {
@@ -153,7 +153,7 @@
     }
 
     .button-2:hover {
-    background-color: rgba(191, 135, 136, 0.6);
+    background-color: rgba(245, 164, 177, 0.8);
     }
 
     .text-span {
@@ -241,7 +241,7 @@
     }
 
     .link-block:hover {
-    background-color: rgba(191, 135, 136, 0.6);
+    background-color: rgba(245, 164, 177, 0.8);
     }
 
     .paragraph-2 {
@@ -325,6 +325,10 @@
     -ms-flex-align: center;
     align-items: center;
     text-align: center;
+
+        img {
+            margin: 0 auto;
+        }
     }
 
     .heading-6 {
