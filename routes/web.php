@@ -14,10 +14,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
-Route::get('kontakt', function () {
-    return view('kontakt');
-});
-Route::post('kontakt', [EmailController::class, 'sendContactEmail'])->name('sendContactEmail');
+
+Route::view('/', 'test');
+// Route::get('/', function () {
+//     return view('index');
+// });
+// Route::get('kontakt', function () {
+//     return view('kontakt');
+// });
+// Route::post('kontakt', [EmailController::class, 'sendContactEmail'])->name('sendContactEmail');
