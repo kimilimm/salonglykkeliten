@@ -68,7 +68,7 @@
             <nav role="navigation" class="nav-menu w-nav-menu">
                 <a href="https://bestill.timma.no/salonglykkeliten" target="_blank"
                     class="nav-link w-nav-link">Behandlinger</a>
-                <a href="#" class="nav-link w-nav-link">Produkter</a>
+                <a href="/#brand" class="nav-link w-nav-link">Produkter</a>
                 <a href="kontakt" id="veronika" aria-current="page" class="nav-link w-nav-link w--current">Kontakt</a>
                 <a href="https://bestill.timma.no/salonglykkeliten" target="_blank"
                     class="nav-button nav-link bold-nav w-nav-link">Bestill time</a>
