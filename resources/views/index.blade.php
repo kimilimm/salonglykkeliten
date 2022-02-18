@@ -114,15 +114,15 @@ a[href^="tel"] {
         <div class="column-footer-1 w-col w-col-3"><img src="images/logo.svg" loading="lazy" alt="" class="image-11"></div>
         <div class="column-footer-2 w-col w-col-3">
           <h2 class="heading-6">Åpningstider</h2>
-          <p class="paragraph-12">Mandag 9 - 15<br>Tirsdag 9 - 15<br>Onsdag 9 - 15<br>Torsdag 12 - 18<br>Fredag 09 - 14<br>Kveld og Lørdagetter avtale<br></p>
+          <p class="paragraph-12">Mandag 9 - 15<br>Tirsdag 9 - 15<br>Onsdag 9 - 15<br>Torsdag 12 - 18<br>Fredag 09 - 14<br>Kveld og Lørdag etter avtale<br></p>
         </div>
         <div class="column-footer-3 w-col w-col-3">
           <h2 class="heading-8">Kontakt</h2>
-          <p class="paragraph-13">vepers(at)online.no<br>‍<br>62 57 72 46<br>‍<br>Mågårdvegen 81,<br>2334 Romedal</p>
+          <p class="paragraph-13">vepers(at)online.no<br>‍<br>41 21 23 41<br>‍<br>Mågårdvegen 81<br>2334 Romedal</p>
         </div>
         <div class="column-footer-4 w-col w-col-3">
           <h2 class="heading-10">Hold deg oppdatert</h2>
-          <a href="https://www.facebook.com/Salong-Lykkeliten-152872888090981" target="_blank" class="w-inline-block"><img src="images/117-1171111_black-facebook-icon-png-transparent-png-1.png" loading="lazy" width="67" alt="" class="image-15"></a>
+          <a href="https://www.facebook.com/Salong-Lykkeliten-152872888090981" target="_blank" class="w-inline-block"><img src="images/fblogo.png" loading="lazy" width="67" alt="" class="image-15"></a>
         </div>
       </div>
     </div>

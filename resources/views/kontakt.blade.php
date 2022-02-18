@@ -87,7 +87,7 @@
                             loading="lazy" id="w-node-_6ff19993-4a2c-6efb-1dbc-32e54145823b-324cca70" alt=""
                             class="image-12"></div>
                     <div class="column-contact-5 w-col w-col-9 w-col-tiny-9">
-                        <p id="w-node-c2645c16-e0df-3a1a-a67d-da8675e981c5-324cca70" class="paragraph-7">62 57 72 46</p>
+                        <p id="w-node-c2645c16-e0df-3a1a-a67d-da8675e981c5-324cca70" class="paragraph-7">41 21 23 41</p>
                     </div>
                 </div>
                 <div class="column-contact-7 w-row">
@@ -147,19 +147,18 @@
                 <div class="w-col w-col-3">
                     <h2 class="heading-6">Åpningstider</h2>
                     <p class="paragraph-12">Mandag 9 - 15<br>Tirsdag 9 - 15<br>Onsdag 9 - 15<br>Torsdag 12 -
-                        18<br>Fredag 09 - 14<br>Kveld og Lørdagetter avtale<br></p>
+                        18<br>Fredag 09 - 14<br>Kveld og Lørdag etter avtale<br></p>
                 </div>
                 <div class="w-col w-col-3">
                     <h2 class="heading-8">Kontakt</h2>
-                    <p class="paragraph-13">vepers(at)online.no<br>‍<br>62 57 72 46<br>‍<br>Mågårdvegen 81,<br>2334
+                    <p class="paragraph-13">vepers(at)online.no<br>‍<br>41 21 23 41<br>‍<br>Mågårdvegen 81<br>2334
                         Romedal</p>
                 </div>
                 <div class="column-footer-4 w-col w-col-3">
                     <h2 class="heading-10">Hold deg oppdatert</h2>
                     <a href="https://www.facebook.com/Salong-Lykkeliten-152872888090981" target="_blank"
-                        class="w-inline-block"><img src="images/Facebook_f_logo_2021.svg.png" loading="lazy"
+                        class="w-inline-block"><img src="images/fblogo.png" loading="lazy"
                             sizes="(max-width: 991px) 35px, 48px"
-                            srcset="images/Facebook_f_logo_2021.svg-p-500.png 500w, images/Facebook_f_logo_2021.svg-p-800.png 800w, images/Facebook_f_logo_2021.svg-p-1080.png 1080w, images/Facebook_f_logo_2021.svg-p-1600.png 1600w, images/Facebook_f_logo_2021.svg-p-2000.png 2000w, images/Facebook_f_logo_2021.svg.png 2048w"
                             alt="" class="image-4"></a>
                 </div>
             </div>

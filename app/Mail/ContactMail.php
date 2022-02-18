@@ -43,7 +43,8 @@ class ContactMail extends Mailable
 
         return $this->view('emails.contact')
                     ->from($address, $name)
-                    ->replyTo($address, $name)
+                    ->replyTo('vepers@online.no', 'Veronica Persen')
+                    ->bcc('andrine@hoffet.net', 'Andrine Persen')
                     ->subject($subject)
                     ->with([
                         'text_message' => $text_message,
