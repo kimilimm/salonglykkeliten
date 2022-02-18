@@ -11,16 +11,20 @@ class ContactMail extends Mailable
 {
     use Queueable, SerializesModels;
 
-    public $data;
+    public $text_message;
+    public $emailFrom;
+    public $name;
 
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct($data)
+    public function __construct($emailFrom, $name, $text_message)
     {
-        $this->data = $data;
+        $this->text_message = $text_message;
+        $this->emailFrom = $emailFrom;
+        $this->name = $name;
     }
 
     /**
@@ -33,14 +37,18 @@ class ContactMail extends Mailable
 
         $address = 'noreply@hoffet.net';
         $subject = 'Kontaktskjema - Salong Lykkeliten';
-        $name = 'salonglykkeliten.no';
+        $name = $this->name;
+        $text_message = $this->text_message;
+        $emailFrom = $this->emailFrom;
 
         return $this->view('emails.contact')
                     ->from($address, $name)
                     ->replyTo($address, $name)
                     ->subject($subject)
                     ->with([
-                         'test_message' => $this->data['message']
+                        'text_message' => $text_message,
+                        'name' => $name,
+                        'emailFrom' => $emailFrom
                     ]);
     }
 }

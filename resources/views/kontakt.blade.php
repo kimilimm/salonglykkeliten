@@ -118,14 +118,18 @@
             <div class="form-block w-form">
                 <form id="wf-form-Kontaktskjema" name="wf-form-Kontaktskjema" data-name="Kontaktskjema" method="post" class="form meldingsboks w-clearfix" action="{{ route('sendContactEmail') }}">
                     @csrf
-                    <label for="name-3" class="field-label-3">Navn</label><input
+                    <label for="name-3" class="field-label-3">Navn</label>
+                    <input
                         type="text" class="text-field-2 w-input" maxlength="256" name="name" data-name="name"
-                        placeholder="" id="name-3"><label for="email" class="field-label-2">E-post</label><input
+                        placeholder="" id="name-3">
+                    <label for="email" class="field-label-2">E-post</label>
+                    <input
                         type="text" class="text-field-2 w-input" maxlength="256" name="email" data-name="email"
-                        placeholder="" id="email"><label for="message" class="field-label">Melding</label><textarea
-                        id="message" name="message" maxlength="5000" data-name="message" placeholder="Melding"
-                        class="textarea w-input"></textarea><input type="submit" value="Send melding"
-                        data-wait="Please wait..." class="submit-button w-button"></form>
+                        placeholder="" id="email">
+                    <label for="text_message" class="field-label">Melding</label>
+                    <textarea id="text_message" name="text_message" maxlength="5000" data-name="text_message" placeholder="Melding" class="textarea w-input"></textarea>
+                    <input type="submit" value="Send melding" data-wait="Please wait..." class="submit-button w-button">
+                    </form>
                 <div class="w-form-done">
                     <div>Takk for din henvendelse. Jeg svarer deg så raskt som mulig.</div>
                 </div>
