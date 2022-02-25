@@ -66,8 +66,8 @@
                     class="image-11"></div>
             <div class="column-footer-2 w-col w-col-3">
                 <h2 class="heading-6">Åpningstider</h2>
-                <p class="paragraph-12">Mandag 9 - 15<br>Tirsdag 9 - 15<br>Onsdag 9 - 15<br>Torsdag 12 -
-                    18<br>Fredag 09 - 14<br>Kveld og Lørdag etter avtale<br></p>
+                <p class="paragraph-12">Mandag 9 - 15<br>Tirsdag 9 - 15<br>Onsdag 15 - 20 (Oddetall uke)<br>Onsdag STENGT (Partall uke)<br> Torsdag 09 -
+                    15<br>Fredag 09 - 14<br>Ellers etter avtale<br></p>
             </div>
             <div class="column-footer-3 w-col w-col-3">
                 <h2 class="heading-8">Kontakt</h2>
