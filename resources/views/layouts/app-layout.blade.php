@@ -82,5 +82,13 @@
             </div>
         </div>
     </div>
+    <div class="container w-container">
+        <div class="column-footer w-row">
+            <div class="column-footer-1 w-col w-col-3 mt-10 ml-4">
+                <p class="paragraph-13">© {{ \Carbon\Carbon::now()->format('Y') }} Salong Lykkeliten</p>
+                <p class="paragraph-13"><small>Utviklet av <a href="https://hoffet.net">Hoffet AS</small></a></p>
+            </div>
+        </div>
+    </div>
 </div>
 </html>
