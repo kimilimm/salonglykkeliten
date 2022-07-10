@@ -34,7 +34,6 @@ class ContactMail extends Mailable implements ShouldQueue
      */
     public function build()
     {
-
         $address = 'noreply@hoffet.net';
         $subject = 'Kontaktskjema - Salong Lykkeliten';
         $name = $this->name;
