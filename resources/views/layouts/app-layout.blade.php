@@ -50,6 +50,7 @@
         }
 
     </style>
+     {!! htmlScriptTagJsApi() !!}
 </head>
 <body class="body" id="salong">
     @yield('content')

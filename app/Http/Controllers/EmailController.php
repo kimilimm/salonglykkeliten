@@ -13,7 +13,8 @@ class EmailController extends Controller
         $request->validate([
             'email' => 'required',
             'name' => 'required',
-            'text_message' => 'required'
+            'text_message' => 'required',
+            'g-recaptcha-response' => 'required|recaptcha',
         ]);
 
         Mail::to('kim@hoffet.net')->send(new ContactMail($request->email, $request->name, $request->text_message));
