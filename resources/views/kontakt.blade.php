@@ -88,7 +88,7 @@
                         placeholder="" id="email "value="{{ old('email') }}" required>
                     <label for="text_message" class="field-label">Melding</label>
                     <textarea id="text_message" name="text_message" maxlength="5000" data-name="text_message"
-                        placeholder="Melding" class="textarea w-input"  required>{{ old('name') }}</textarea>
+                        placeholder="" class="textarea"  required>{{ old('name') }}</textarea>
                         {!! htmlFormSnippet() !!}
                     <input type="submit" value="Send melding" data-wait="Please wait..." class="submit-button w-button">
                 </form>
