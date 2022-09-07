@@ -23,11 +23,15 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('pages.index');
 })->name('home');
 
 Route::get('kontakt', function () {
-    return view('kontakt');
+    return view('pages.kontakt');
+});
+
+Route::get('behandlinger', function () {
+    return view('pages.behandlinger');
 });
 
 Route::post('kontakt', [EmailController::class, 'sendContactEmail'])->name('sendContactEmail');

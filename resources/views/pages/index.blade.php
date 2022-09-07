@@ -31,7 +31,7 @@
                 <a href="/" aria-current="page" class="brand w-nav-brand w--current"><img src="images/logo-riktig.png"
                         loading="lazy" alt="" class="image"></a>
                 <nav role="navigation" class="nav-menu w-nav-menu">
-                    <a href="https://bestill.timma.no/salonglykkeliten" target="_blank"
+                    <a href="/behandlinger" target="_blank"
                         class="nav-link w-nav-link">Behandlinger</a>
                     <a href="#brand" class="nav-link w-nav-link">Produkter</a>
                     <a href="kontakt" id="veronika" class="nav-link w-nav-link">Kontakt</a>

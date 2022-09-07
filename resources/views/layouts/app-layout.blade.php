@@ -51,45 +51,48 @@
 
     </style>
      {!! htmlScriptTagJsApi() !!}
+     <script src="{{ mix('js/app.js') }}" type="text/javascript"></script>
 </head>
 <body class="body" id="salong">
     @yield('content')
     <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=620c28c9ea080a1e8139270c"
         type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous">
     </script>
-    <script src="{{ mix('js/app.js') }}" type="text/javascript"></script>
+
     <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
 </body>
-<div class="footer-section wf-section">
-    <div class="container w-container">
-        <div class="column-footer w-row">
-            <div class="column-footer-1 w-col w-col-3"><img src="images/logo.svg" loading="lazy" alt=""
-                    class="image-11"></div>
-            <div class="column-footer-2 w-col w-col-3">
-                <h2 class="heading-6">Åpningstider</h2>
-                <p class="paragraph-12">Mandag 9 - 15<br>Tirsdag 9 - 15<br>Onsdag 15 - 20 (Oddetall uke)<br>Onsdag STENGT (Partall uke)<br> Torsdag 09 -
-                    15<br>Fredag 09 - 14<br>Ellers etter avtale<br></p>
+<footer>
+    <div class="footer-section wf-section">
+        <div class="container w-container">
+            <div class="column-footer w-row">
+                <div class="column-footer-1 w-col w-col-3"><img src="images/logo.svg" loading="lazy" alt=""
+                        class="image-11"></div>
+                <div class="column-footer-2 w-col w-col-3">
+                    <h2 class="heading-6">Åpningstider</h2>
+                    <p class="paragraph-12">Mandag 9 - 15<br>Tirsdag 9 - 15<br>Onsdag 15 - 20 (Oddetall uke)<br>Onsdag STENGT (Partall uke)<br> Torsdag 09 -
+                        15<br>Fredag 09 - 14<br>Ellers etter avtale<br></p>
+                </div>
+                <div class="column-footer-3 w-col w-col-3">
+                    <h2 class="heading-8">Kontakt</h2>
+                    <p class="paragraph-13">vepers(at)online.no<br>‍<br>41 21 23 41<br>‍<br>Mågårdvegen 81<br>2334
+                        Romedal</p>
+                </div>
+                <div class="column-footer-4 w-col w-col-3">
+                    <h2 class="heading-10">Hold deg oppdatert</h2>
+                    <a href="https://www.facebook.com/Salong-Lykkeliten-152872888090981" target="_blank"
+                        class="w-inline-block"><img src="images/fblogo.png" loading="lazy" width="67" alt=""
+                            class="image-15"></a>
+                </div>
             </div>
-            <div class="column-footer-3 w-col w-col-3">
-                <h2 class="heading-8">Kontakt</h2>
-                <p class="paragraph-13">vepers(at)online.no<br>‍<br>41 21 23 41<br>‍<br>Mågårdvegen 81<br>2334
-                    Romedal</p>
-            </div>
-            <div class="column-footer-4 w-col w-col-3">
-                <h2 class="heading-10">Hold deg oppdatert</h2>
-                <a href="https://www.facebook.com/Salong-Lykkeliten-152872888090981" target="_blank"
-                    class="w-inline-block"><img src="images/fblogo.png" loading="lazy" width="67" alt=""
-                        class="image-15"></a>
+        </div>
+        <div class="container w-container">
+            <div class="column-footer w-row">
+                <div class="column-footer-1 w-col w-col-3 mt-10 ml-4">
+                    <p class="paragraph-13">© {{ \Carbon\Carbon::now()->format('Y') }} Salong Lykkeliten</p>
+                    <p class="paragraph-13"><small>Utviklet av <a href="https://hoffet.net">Hoffet AS</small></a></p>
+                </div>
             </div>
         </div>
     </div>
-    <div class="container w-container">
-        <div class="column-footer w-row">
-            <div class="column-footer-1 w-col w-col-3 mt-10 ml-4">
-                <p class="paragraph-13">© {{ \Carbon\Carbon::now()->format('Y') }} Salong Lykkeliten</p>
-                <p class="paragraph-13"><small>Utviklet av <a href="https://hoffet.net">Hoffet AS</small></a></p>
-            </div>
-        </div>
-    </div>
-</div>
+</footer>
 </html>
