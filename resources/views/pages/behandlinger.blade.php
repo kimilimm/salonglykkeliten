@@ -39,6 +39,10 @@
         </div>
     </div>
     <div class="min-h-screen">
-
+        <div class="container w-container">
+           <div class="mt-4">
+                <h1 class="heading-2 text-center" style="font-size: 55px; margin-top: 120px;">Behandlinger</h1>
+           </div>
+        </div>
     </div>
   @endsection
