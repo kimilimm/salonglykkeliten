@@ -5,18 +5,18 @@
 @endsection
 @section('seo')
     <meta
-    content="Salong Lykkeliten i Romedal tilbyr mange ulike behandlinger innen for velvære og hudpleie. Timebestilling kan gjøres i salong, nettbooking eller telefon."
+    content="Salong Lykkeliten i Romedal som ligger i Stange kommune tilbyr mange ulike behandlinger innen for velvære og hudpleie. Timebestilling kan gjøres i salong, nettbooking eller telefon."
     name="description">
     <meta content="Salong Lykkeliten - Sett av litt tid til deg selv" property="og:title">
     <meta
-        content="Salong Lykkeliten i Romedal tilbyr mange ulike behandlinger innen for velvære og hudpleie. Timebestilling kan gjøres i salong, nettbooking eller telefon."
+        content="Salong Lykkeliten i Romedal som ligger i Stange kommune tilbyr mange ulike behandlinger innen for velvære og hudpleie. Timebestilling kan gjøres i salong, nettbooking eller telefon."
         property="og:description">
     <meta
         content="https://uploads-ssl.webflow.com/620c28c9ea080a1e8139270c/620eac7e39525572702bc9cd_hero%20image-min.png"
         property="og:image">
     <meta content="Salong Lykkeliten - Sett av litt tid til deg selv" property="twitter:title">
     <meta
-        content="Salong Lykkeliten i Romedal tilbyr mange ulike behandlinger innen for velvære og hudpleie. Timebestilling kan gjøres i salong, nettbooking eller telefon."
+        content="Salong Lykkeliten i Romedal som ligger i Stange kommune tilbyr mange ulike behandlinger innen for velvære og hudpleie. Timebestilling kan gjøres i salong, nettbooking eller telefon."
         property="twitter:description">
     <meta
         content="https://uploads-ssl.webflow.com/620c28c9ea080a1e8139270c/620eac7e39525572702bc9cd_hero%20image-min.png"
@@ -46,7 +46,7 @@
         <div class="container">
             <div class="hero-content">
                 <h1 class="heading-2">Sett av litt tid til deg selv</h1>
-                <p class="paragraph">Salong Lykkeliten i Romedal tilbyr mange ulike behandlinger innen velvære og
+                <p class="paragraph">Salong Lykkeliten i Romedal som ligger i Stange kommune tilbyr mange ulike behandlinger innen velvære og
                     hudpleie. Timebestilling kan gjøres i salong, nettbooking eller telefon.</p>
                 <a href="https://bestill.timma.no/salonglykkeliten" target="_blank" class="button-2 w-button"><span
                         class="text-span text-button-bigger">Bestill time</span></a>
