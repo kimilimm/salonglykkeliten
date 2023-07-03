@@ -72,8 +72,8 @@
             </div>
             <div class="column-footer-3 w-col w-col-3">
                 <h2 class="heading-8">Kontakt</h2>
-                <p class="paragraph-13">vepers(at)online.no<br>‍<br>41 21 23 41<br>‍<br>Mågårdvegen 81<br>2334
-                    Romedal</p>
+                <p class="paragraph-13">vepers(at)online.no<br>‍<br>41 21 23 41<br>‍<br>Sverres gate 33<br>2317
+                    Hamar</p>
             </div>
             <div class="column-footer-4 w-col w-col-3">
                 <h2 class="heading-10">Hold deg oppdatert</h2>

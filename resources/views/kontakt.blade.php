@@ -64,8 +64,8 @@
                             loading="lazy" id="w-node-e118aa93-cb93-0dbb-4f89-302c56a04aa7-324cca70" alt=""
                             class="image-14"></div>
                     <div class="column-contact-9 w-col w-col-9 w-col-tiny-9">
-                        <p id="w-node-_0c396ac8-7a53-3408-4fcc-1fa4b4fbfc43-324cca70" class="paragraph-5">Mågårdvegen 81
-                            <br>2334 Romedal</p>
+                        <p id="w-node-_0c396ac8-7a53-3408-4fcc-1fa4b4fbfc43-324cca70" class="paragraph-5">Sverres gate 33
+                            <br>2317 Hamar</p>
                     </div>
                 </div>
             </div>

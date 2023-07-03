@@ -24,6 +24,37 @@
 @endsection
 
 @section('content')
+
+@if(session()->get('clossed') != true)
+    <div id="overlay-alert" class="relative z-10" aria-labelledby="modal-title" role="dialog" aria-modal="true">
+        <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"></div>
+
+        <div class="fixed inset-0 z-10 overflow-y-auto">
+            <div class="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0">
+                <div class="relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg">
+                    <div class="bg-white px-4 pb-4 pt-5 sm:p-6 sm:pb-4">
+                        <div class="">
+                            <div class="p-6 text-center">
+                                <svg aria-hidden="true" class="mx-auto mb-4 text-gray-400 w-14 h-14 dark:text-gray-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                                <div class="mt-3 text-center sm:ml-4 sm:mt-0 sm:text-left">
+                                    <h3 class="text-center font-semibold text-xl text-gray-900" id="modal-title">Jeg har byttet lokaler!</h3>
+                                    <div class="mt-2 text-center">
+                                    <p class="text-gray-500">Du finner meg nå hos Salong Gullhår på Hamar.</p>
+                                    <p class="text-gray-500">Addresse: Sverres gate 33, 2317 Hamar</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-gray-50 px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6">
+                            {{-- <button type="button" class="inline-flex w-full justify-center rounded-md bg-red-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-500 sm:ml-3 sm:w-auto">Deactivate</button> --}}
+                            <button id="cancelBtn" onclick="closeModal()" type="button" class="mt-3 inline-flex w-full justify-center rounded-md bg-white px-6 py-6 font-semibold sm:mt-0 sm:w-auto nav-button nav-link bold-nav w-nav-link">Lukk</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+@endif
     <div class="hero">
         <div data-animation="default" data-collapse="small" data-duration="400" data-easing="ease" data-easing2="ease"
             role="banner" class="navbar w-nav">
@@ -128,4 +159,14 @@
             </div>
         </div>
     </div>
+<script>
+
+    function closeModal() {
+        document.getElementById( 'overlay-alert' ).style.display = 'none';
+        @php
+            session()->put('clossed', true);
+        @endphp
+    }
+
+</script>
 @endsection
