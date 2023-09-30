@@ -62,11 +62,11 @@
                 <a href="/" aria-current="page" class="brand w-nav-brand w--current"><img src="images/logo-riktig.png"
                         loading="lazy" alt="" class="image"></a>
                 <nav role="navigation" class="nav-menu w-nav-menu">
-                    <a href="https://bestill.timma.no/salonglykkeliten" target="_blank"
+                    <a href="https://salonggullhaar.no/" target="_blank"
                         class="nav-link w-nav-link">Behandlinger</a>
                     <a href="#brand" class="nav-link w-nav-link">Produkter</a>
                     <a href="kontakt" id="veronika" class="nav-link w-nav-link">Kontakt</a>
-                    <a href="https://bestill.timma.no/salonglykkeliten" target="_blank"
+                    <a href="https://salonggullhaar.no/" target="_blank"
                         class="nav-button nav-link bold-nav w-nav-link">Bestill time</a>
                 </nav>
                 <div class="menu-button w-nav-button">
@@ -79,9 +79,9 @@
                 <h1 class="heading-2">Sett av litt tid til deg selv</h1>
                 <p class="paragraph">Salong Lykkeliten i Romedal som ligger i Stange kommune tilbyr mange ulike behandlinger innen velvære og
                     hudpleie. Timebestilling kan gjøres i salong, nettbooking eller telefon.</p>
-                <a href="https://bestill.timma.no/salonglykkeliten" target="_blank" class="button-2 w-button"><span
+                <a href="https://salonggullhaar.no" target="_blank" class="button-2 w-button"><span
                         class="text-span text-button-bigger">Bestill time</span></a>
-                <a href="https://bestill.timma.no/salonglykkeliten" target="_blank"
+                <a href="https://salonggullhaar.no" target="_blank"
                     class="button w-button">Behandlinger</a>
             </div>
         </div>
@@ -108,7 +108,7 @@
                 </div>
             </div>
             <div class="div-block-2">
-                <a href="https://bestill.timma.no/salonglykkeliten" target="_blank"
+                <a href="https://salonggullhaar.no" target="_blank"
                     class="link-block w-inline-block w-clearfix">
                     <p class="paragraph-2">Se alle behandlinger</p><img src="images/arrow_right_alt_24px.png"
                         loading="lazy" alt="" class="image-2">
